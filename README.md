@@ -4,17 +4,15 @@ API sederhana berbasis **FastAPI** untuk mendeteksi tingkat kematangan/roasting 
 
 ---
 
-## 📂 Struktur Folder
+## 📂 Struktur Folder Coffee-Predict
 
 Pastikan struktur folder project kamu seperti berikut sebelum menjalankan server:
 
 ```
-coffee-bean-api/
+coffee-predict/
 ├── app/
 │   └── ResNet50V2-Coffee-Beans.h5   # File model hasil training (.h5)
 ├── main.py                          # Kode utama FastAPI
-├── requirements.txt                 # Daftar dependensi Python
-└── README.md
 ```
 
 > ⚠️ **Penting:** File model `ResNet50V2-Coffee-Beans.h5` **wajib** diletakkan di dalam folder `app/`, karena path model di `main.py` mengacu ke `app/ResNet50V2-Coffee-Beans.h5`.
@@ -34,8 +32,8 @@ coffee-bean-api/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/coffee-bean-api.git
-cd coffee-bean-api
+git clone https://github.com/fadiru02/2305101070_RestNet50v2_Klasifikasi_Biji_Kopi
+cd 2305101070_RestNet50v2_Klasifikasi_Biji_Kopi
 ```
 
 ### 2. Buat Virtual Environment (disarankan)
@@ -197,3 +195,11 @@ kelas Dark memiliki indeks kelas 0
 kelas Green memiliki indeks kelas 1
 kelas Light memiliki indeks kelas 2
 kelas Medium memiliki indeks kelas 3
+
+---
+## Frontend 
+- Next.js : v16
+- Radix Themes
+- 
+## RUN Frontend
+npm run dev
