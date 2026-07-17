@@ -183,3 +183,17 @@ CORS sudah diaktifkan untuk semua origin (`allow_origins=["*"]`), sehingga API i
 - [Uvicorn](https://www.uvicorn.org/) – ASGI server
 
 ---
+
+## Link Dataset
+https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224
+
+## Penjelasan Dataset
+Kolom filepaths berisi path relatif ke file gambar
+Kolom labels berisi label teks yang terkait dengan file gambar tersebut
+Kolom data set menentukan dataset mana yang menjadi bagian dari file gambar tersebut (baik train maupun test)
+Kolom class index menentukan indeks bilangan bulat (integer) dari kelas gambar tersebut, di mana:
+
+kelas Dark memiliki indeks kelas 0
+kelas Green memiliki indeks kelas 1
+kelas Light memiliki indeks kelas 2
+kelas Medium memiliki indeks kelas 3
